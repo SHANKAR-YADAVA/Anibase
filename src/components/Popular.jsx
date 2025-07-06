@@ -4,7 +4,7 @@ import { useGlobalContext } from '../context/global'
 import styled from 'styled-components'
 
 
-function Popular({rendered = 'popular'}) {
+function Popular({rendered}) {
     const {popularAnime,isSearch, searchResults} = useGlobalContext()
 
     const conditionalRender = () => {
