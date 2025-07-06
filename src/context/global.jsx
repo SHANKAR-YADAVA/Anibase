@@ -131,6 +131,7 @@ export const GlobalContextProvider = ({ children }) => {
     getPopularAnime,
     getUpcomingAnime,
     getAiringAnime,
+    searchAnime,
     getAnimePictures
   }), [state, search]);
 

@@ -174,7 +174,7 @@ const AnimeItemStyled = styled.div`
             p{
                 margin-left: 1rem;
                 display: flex;
-                gap: 1rem;
+                gap: 0.5rem; 
             }
             p span:first-child{
                 font-weight: 600;
